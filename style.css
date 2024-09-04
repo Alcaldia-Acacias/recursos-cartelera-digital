@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Hace que el cuerpo ocupe el 100% de la altura de la ventana */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.col-md-5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+}
+
+.img-fluid {
+    max-width: 20%;
+    height: auto;
+}
+
+.info, .form-container {
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    min-height: 300px;
+    margin: 0 auto;
+    max-width: 500px;
+    flex-grow: 1; /* Permite que ambos contenedores crezcan para tener la misma altura */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centra verticalmente el contenido */
+    align-items: center; /* Centra horizontalmente el contenido */
+}
+
+.logo .logo-img {
+    max-width: 40%;
+    max-height: 80px;
+    object-fit: contain;
+    border-radius: 8px;
+    margin: 0 auto;
+    display: block;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.input-group {
+    width: 100%;
+}
+
+input[type="text"] {
+    width: 80%;
+    padding: 12px;
+    margin: 0 auto 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    display: block;
+}
+
+#buttn_fnl {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 30%;
+    display: block;
+    margin: 0 auto;
+}
+
+button:hover {
+    background-color: #0056b3;
+}

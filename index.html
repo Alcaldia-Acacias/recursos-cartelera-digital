@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta de Cédula</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <!-- SweetAlert2 CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-md-5 mb-4">
+                <div class="form-container p-4 bg-light border rounded shadow-sm d-flex flex-column align-items-center">
+                    <div class="logo mb-3">
+                        <img src="https://www.acacias.gov.co/info/acacias_se/media/galeria11970.png" alt="Logo Institucional" class="img-fluid"> <!-- Reemplaza con la ruta a tu logo -->
+                    </div>
+                    <h3 class="text-center">Consulta Cartelera Digital</h3>
+                    <div class="texto text-left mb-3">
+                        <label for="cedula">Ingrese su cédula:</label>
+                    </div>
+                    <form id="cedulaForm" class="w-100">
+                        <input type="number" id="cedula" name="cedula" class="form-control mb-3" required>
+                        <button id="buttn_fnl" type="submit" class="btn btn-primary w-100">Consultar</button>
+                    </form>
+                </div>
+            </div>
+            <div class="col-md-5 mb-4">
+                <div class="info p-4 bg-light border rounded shadow-sm">
+                    <h2>Información Importante</h2>
+                    <p>Esta herramienta permite consultar si su número de cédula está registrado en la lista de beneficiarios del programa Renta Ciudadana.</p>
+                    <p>Por favor, ingrese su número de cédula para verificar si es parte del programa.</p>
+                    <div class="logo mt-3">
+                        <img src="https://www.acacias.gov.co/info/acacias_se/media/galeria12854.png" alt="Logo Institucional" class="logo-img"> <!-- Reemplaza con la ruta a tu logo -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- SweetAlert2 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.all.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

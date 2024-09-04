@@ -27,7 +27,7 @@ El proyecto está organizado de la siguiente manera:
 
 ## Uso
 
-1. Abre la aplicación en tu navegador.
+1. Abre la página web en tu navegador.
 2. Ingresa tu número de cédula en el campo correspondiente.
 3. Haz clic en el botón "Consultar".
 4. Observa el resultado de la consulta, que te indicará si eres beneficiario del programa Renta Ciudadana.
